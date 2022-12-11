@@ -1,0 +1,44 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.rating {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.rating h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.rating p {
+  color: hsl(217, 12%, 63%);
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback-puntuation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating label {
+  color: hsl(217, 12%, 63%);
+}
+
+.rating button {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+    
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
